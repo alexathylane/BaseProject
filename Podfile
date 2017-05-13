@@ -4,6 +4,7 @@ target 'BaseProject' do
   use_frameworks!
 
   # Pods for BaseProject
+  pod 'AFNetworking', '~> 3.1.0'
 
   target 'BaseProjectTests' do
     inherit! :search_paths
